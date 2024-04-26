@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Admin Dashboard | Korsat X Parmaga</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="./css/employee position.css">
+</head>
+ 
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="title">Employee - login</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html" class="nav-link px-1 align-middle text-blue">
+                        <i class="fs-2 bi bi-house-door"></i> <span class="fs-5 ms-4 d-none d-sm-inline pt-2">Home</span></a>
+                </li><li>
+                    <a href="./mydetails.html" class="nav-link px-1 align-middle text-blue">
+                        <i class="fs-2 bi bi-file-earmark-person"></i> <span class="fs-5 ms-4 d-none d-sm-inline pt-2">My Details</span></a>
+                </li>
+                <li>
+                    <a href="./timesheet.html" class="nav-link px-1 align-middle text-blue">
+                        <i class="fs-2 bi bi-clock-history"></i> <span class="fs-5 ms-4 d-none d-sm-inline pt-2">Timesheet</span></a>
+                </li>
+                <li>
+                    <a href="./resources.html" class="nav-link px-1 align-middle text-blue">
+                        <i class="fs-2 bi bi-gear-wide-connected"></i> <span class="fs-5 ms-4 d-none d-sm-inline pt-2">Resources</span></a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link px-1 align-middle text-blue">
+                        <i class="fs-2 bi bi-chat-left-text"></i> <span class="fs-5 ms-4 d-none d-sm-inline pt-2">Forums</span></a>
+                </li>
+                <li>
+                    <a href="./organization.html" class="nav-link px-1 align-middle text-blue">
+                        <i class="fs-2 bi bi-diagram-3"></i> <span class="fs-5 ms-4 d-none d-sm-inline pt-2">Organization</span></a>
+                </li>
+ 
+               
+            </ul>
+        </div>
+ 
+        <!-- ========================= cards ==================== -->
+        <div class="main">
+            <div class="mainhea">
+                <h1>Employee position</h1>
+            </div>
+            <div class="topbar">
+                <div class="toggle">   
+                    <label>Division</label>
+                </div>
+                <div class="search">
+                    <div class="col-sm-12" >
+                        <select class="form-select" placeholder="Select Client" style="border-radius:15px;height: 40px;border: 1px solid var(--black2);">
+                            <option value="">Select Division</option>
+                            <option value="client1">Division1</option>
+                            <option value="client2">Division2</option>
+                            <option value="client3">Division3</option>
+                            <option value="client4">Division4</option>
+                          </select>
+                    </div>
+                </div>
+                <div><i class="fa fa-edit"></i></div>
+            </div>
+            <div class="topbar">
+                <div class="toggle">
+                    <label>Cost Center</label>
+                </div>
+                <div class="search">
+                    <div class="col-sm-12" >
+                        <select class="form-select" placeholder="Select Client" style="border-radius:15px;height: 40px;border: 1px solid var(--black2);">
+                            <option value="">Select Cost Center</option>
+                            <option value="client1">Cost Center1</option>
+                            <option value="client2">Cost Center2</option>
+                            <option value="client3">Cost Center3</option>
+                            <option value="client4">Cost Center4</option>
+                          </select>
+                    </div>
+                </div>
+                <div><i class="fa fa-edit"></i></div>
+            </div>
+            <div class="topbar">
+                <div class="toggle">   
+                    <label>Grade</label>
+                </div>
+                <div class="search">
+                    <div class="col-sm-12" >
+                        <select class="form-select" placeholder="Select Client" style="border-radius:15px;height: 40px;border: 1px solid var(--black2);">
+                            <option value="">Select Grade</option>
+                            <option value="client1">GradeA</option>
+                            <option value="client2">GradeB</option>
+                            <option value="client3">GradeC</option>
+                            <option value="client4">GradeD</option>
+                          </select>
+                    </div>
+                </div>
+                <div><i class="fa fa-edit"></i></div>
+            </div>
+            <div class="topbar">
+                <div class="toggle">   
+                    <label>Designation</label>
+                </div>
+                <div class="search">
+                    <div class="col-sm-12" >
+                        <select class="form-select" placeholder="Select Client" style="border-radius:15px;height: 40px;border: 1px solid var(--black2);">
+                            <option value="">Select Designation</option>
+                            <option value="client1">Designation1</option>
+                            <option value="client2">Designation2</option>
+                            <option value="client3">Designation3</option>
+                            <option value="client4">Designation4</option>
+                          </select>
+                    </div>
+                </div>
+                <div><i class="fa fa-edit"></i></div>
+            </div>
+            <div class="topbar">
+                <div class="toggle">   
+                    <label>Location</label>
+                </div>
+                <div class="search">
+                    <div class="col-sm-12" >
+                        <select class="form-select" placeholder="Select Client" style="border-radius:15px;height: 40px;border: 1px solid var(--black2);">
+                            <option value="">Select Location</option>
+                            <option value="client1">Location1</option>
+                            <option value="client2">Location2</option>
+                            <option value="client3">Location3</option>
+                            <option value="client4">Location4</option>
+                          </select>
+                    </div>
+                </div>
+                <div><i class="fa fa-edit"></i></div>
+            </div>
+            <div class="topbar">
+                <div class="toggle">   
+                    <label>Department</label>
+                </div>
+                <div class="search">
+                    <div class="col-sm-12" >
+                        <select class="form-select" placeholder="Select Client" style="border-radius:15px;height: 40px;border: 1px solid var(--black2);">
+                            <option value="">Select Department</option>
+                            <option value="client1">Department1</option>
+                            <option value="client2">Department2</option>
+                            <option value="client3">Department3</option>
+                            <option value="client4">Department4</option>
+                          </select>
+                    </div>
+                </div>
+                <div><i class="fa fa-edit"></i></div>
+            </div>
+            <div class="topbar">
+                <div class="toggle">   
+                    <label>Shift</label>
+                </div>
+                <div class="search">
+                    <div class="col-sm-12" >
+                        <select class="form-select" placeholder="Select Client" style="border-radius:15px;height: 40px;border: 1px solid var(--black2);">
+                            <option value="">Select Shift</option>
+                            <option value="client1">Shift1</option>
+                            <option value="client2">Shift2</option>
+                            <option value="client3">Shift3</option>
+                            <option value="client4">Shift4</option>
+                          </select>
+                    </div>
+                </div>
+                <div><i class="fa fa-edit"></i></div>
+            </div>
+            <div class="topbar">
+                <div class="toggle">   
+                    <label>Holiday Category</label>
+                </div>
+                <div class="search">
+                    <div class="col-sm-12">
+                        <select class="form-select" placeholder="Select Client" style="border-radius:15px;height: 40px;border: 1px solid var(--black2);">
+                            <option value="">Select Holiday Category</option>
+                            <option value="client1">Holiday Category1</option>
+                            <option value="client2">Holiday Category2</option>
+                            <option value="client3">Holiday Category3</option>
+                            <option value="client4">Holiday Category4</option>
+                          </select>
+                    </div>
+                </div>
+                <div><i class="fa fa-edit"></i></div>
+            </div>
+            <div class="topbar">
+                <div class="toggle">   
+                    <label>Company</label>
+                </div>
+                <div class="search">
+                    <div class="col-sm-12" >
+                        <select class="form-select" placeholder="Select Client" style="border-radius:15px;height: 40px;border: 1px solid var(--black2);">
+                            <option value="">Select Company</option>
+                            <option value="client1">Company1</option>
+                            <option value="client2">Company2</option>
+                            <option value="client3">Company3</option>
+                            <option value="client4">Company4</option>
+                          </select>
+                    </div>
+                </div>
+                <div><i class="fa fa-edit"></i></div>
+            </div>
+           
+            
+            
+        </div>
+    <!-- =========== Scripts =========  -->
+    <script src="assets/js/main.js"></script>
+ 
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+ 
+</html>
